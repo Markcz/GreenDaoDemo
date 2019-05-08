@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/bt_add"
+        android:text="添加数据"
+        android:onClick="onMainClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+
+    <Button
+        android:id="@+id/bt_backup"
+        android:text="备份"
+        android:onClick="onMainClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/bt_restore"
+        android:text="恢复"
+        android:onClick="onMainClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_show"
+        android:text="读取数据"
+        android:onClick="onMainClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
